@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My fitness</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: "Potta One", cursive;
+      font-size: 20px;
+      color: rgb(238, 223, 15);
+      background-image: url(IMG/pexels-tirachard-kumtanom-601177\ -\ Copy.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .left {
+      top: 8px;
+      display: inline-block;
+    }
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 5px;
+      display: inline-block;
+    }
+    .mid {
+      display: block;
+      width: 500px;
+      margin: 5px auto;
+    }
+    .navBar {
+      color: rgb(155, 6, 6);
+      display: inline-block;
+    }
+    .navBar li {
+      font-size: 20px;
+      padding: 4px 2px;
+      display: inline-block;
+      color: rgb(16, 15, 105);
+    }
+    .navBar li a {
+      width: 75px;
+      color: rgb(46, 187, 53);
+      padding: 40px, 23px;
+    }
+    .navBar li a:hover,
+    .navBar li a.active {
+      text-decoration: underline;
+      color: rgb(13, 87, 92);
+    }
+    .left img {
+      width: 100px;
+    }
+    .btn {
+      font-family: "Potta One", cursive;
+      font-size: 20px;
+      width: 100px;
+      height: 50px;
+      margin: 0 9px;
+      color: #000;
+      background-color: sienna;
+      padding: 3px 4px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: sandybrown;
+    }
+    .container{
+        text-align: center;
+        font-family: "Potta One", cursive;
+        border: 2px solid darkgreen;
+        margin: 10px;
+        padding: 5px;
+        width: 55%;
+        border-radius: 10px;
+    }
+    .form-group{
+        border-radius: 10px;
+        font-family: "Potta One", cursive;
+        text-align: center;
+        display: block;
+        padding: 3px;
+        width: 130px;
+        margin: 5px auto;
+    }
+    .container button{
+        width: 50%;
+        display: block;
+        margin: 5px auto;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <!-- left box for logo  -->
+      <div class="left">
+        <img src="IMG/cover.png" alt="U-FIT" />
+      </div>
+
+      <!-- mid box for  navbar  -->
+      <div class="mid">
+        <ul class="navBar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+        </ul>
+      </div>
+      <!-- right box for button  -->
+      <div class="right">
+        <button class="btn">Call Us</button
+        ><button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name" >
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender" >
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age" >
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality" >
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+  </body>
+</html>

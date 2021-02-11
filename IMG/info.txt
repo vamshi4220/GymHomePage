@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: nevis
+font link: http://tenbytwenty.com/?xxxx_posts=nevis
+font author: Ten by Twenty
+font author site: http://tenbytwenty.com/
+Slogan Font: KaushanScript-Regular.ttf
+
+icon designer: Alfredo @ IconsAlfredo.com
+icon designer link: /AlfredoCreates
+        
+{"bg":"#FAF6F1","icon-gradient-0":"#913C00","icon-gradient-1":"#D9AD76","font":"#3E2B18","slogan":"#523f2c"}
+      
